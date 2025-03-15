@@ -1,7 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/research/notebooks": {
+    "/team": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -14,56 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/research/notebooks",
-      "dataRoute": "/research/notebooks.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/publications": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/publications",
-      "dataRoute": "/publications.rsc",
+      "srcRoute": "/team",
+      "dataRoute": "/team.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -97,7 +49,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/team": {
+    "/publications": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -110,8 +62,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/team",
-      "dataRoute": "/team.rsc",
+      "srcRoute": "/publications",
+      "dataRoute": "/publications.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/research/notebooks": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/research/notebooks",
+      "dataRoute": "/research/notebooks.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/docs": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/docs",
+      "dataRoute": "/docs.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -145,7 +145,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/theses": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -158,8 +158,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/theses",
-      "dataRoute": "/theses.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -193,7 +193,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/docs": {
+    "/theses": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -206,8 +206,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/docs",
-      "dataRoute": "/docs.rsc",
+      "srcRoute": "/theses",
+      "dataRoute": "/theses.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -221,8 +221,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "3aac40da6ef35aaebb667aee9f88fd09",
-    "previewModeSigningKey": "d9d61518994d3096a8bc9a51e7d86e6037940481745a72749689cbb5e7808ef3",
-    "previewModeEncryptionKey": "be0187a4e52cbf61630ec38c87aa01e26b9dd631a4455bfdccbf62ad53f26034"
+    "previewModeId": "fba87cb4a758f3891db86f413772a891",
+    "previewModeSigningKey": "f97d61b1aa13f4f03d9e84b7c7c9a3731954b84863838af7fe5a34485b4033b5",
+    "previewModeEncryptionKey": "1fa0acee81eb8d19ad88493e7d36be42859b68d114402c4257ac635440a47946"
   }
 }

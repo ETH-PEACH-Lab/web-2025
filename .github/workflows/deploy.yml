@@ -19,17 +19,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18  # Adjust if needed
+          node-version: 18  # Adjust Node.js version if needed
 
       - name: Install dependencies
         run: npm install
 
       - name: Build the Next.js App
-        run: npm run build  # ✅ No `export` needed!
+        run: npm run build  # ✅ `next build` automatically exports static files
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out  # Next.js automatically places static files here
+          publish_dir: ./out
           publish_branch: gh-pages

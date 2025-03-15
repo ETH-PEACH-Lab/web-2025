@@ -34,13 +34,6 @@
       "static/chunks/main-app-64247002a9a79661.js",
       "static/chunks/app/join/page-68905563374e0f5e.js"
     ],
-    "/page": [
-      "static/chunks/webpack-ff115515f3448ee6.js",
-      "static/chunks/4bd1b696-401a927c800e33f1.js",
-      "static/chunks/684-4504fdb96dfb32d9.js",
-      "static/chunks/main-app-64247002a9a79661.js",
-      "static/chunks/app/page-692eebd9cd78f3c0.js"
-    ],
     "/publications/page": [
       "static/chunks/webpack-ff115515f3448ee6.js",
       "static/chunks/4bd1b696-401a927c800e33f1.js",
@@ -50,6 +43,13 @@
       "static/chunks/853-3ad50cf9932b0507.js",
       "static/chunks/153-d5ac8b923125cc8c.js",
       "static/chunks/app/publications/page-8b04d9454ed6bca9.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-ff115515f3448ee6.js",
+      "static/chunks/4bd1b696-401a927c800e33f1.js",
+      "static/chunks/684-4504fdb96dfb32d9.js",
+      "static/chunks/main-app-64247002a9a79661.js",
+      "static/chunks/app/page-692eebd9cd78f3c0.js"
     ],
     "/research/notebooks/page": [
       "static/chunks/webpack-ff115515f3448ee6.js",
@@ -64,6 +64,13 @@
       "static/chunks/684-4504fdb96dfb32d9.js",
       "static/chunks/main-app-64247002a9a79661.js",
       "static/chunks/app/research/page-b8090c018e3fb416.js"
+    ],
+    "/teaching/page": [
+      "static/chunks/webpack-ff115515f3448ee6.js",
+      "static/chunks/4bd1b696-401a927c800e33f1.js",
+      "static/chunks/684-4504fdb96dfb32d9.js",
+      "static/chunks/main-app-64247002a9a79661.js",
+      "static/chunks/app/teaching/page-136a0b6f87ad2374.js"
     ],
     "/team/page": [
       "static/chunks/webpack-ff115515f3448ee6.js",
@@ -82,13 +89,6 @@
       "static/chunks/684-4504fdb96dfb32d9.js",
       "static/chunks/main-app-64247002a9a79661.js",
       "static/chunks/app/theses/page-0aae23a330e3da7d.js"
-    ],
-    "/teaching/page": [
-      "static/chunks/webpack-ff115515f3448ee6.js",
-      "static/chunks/4bd1b696-401a927c800e33f1.js",
-      "static/chunks/684-4504fdb96dfb32d9.js",
-      "static/chunks/main-app-64247002a9a79661.js",
-      "static/chunks/app/teaching/page-136a0b6f87ad2374.js"
     ]
   }
 }
