@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # ⚠️ Change if your default branch is not `main`
+      - main  # Deploy when changes are pushed to `main`
 
 permissions:
   contents: write
@@ -19,17 +19,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18  # Use the Node.js version you need
+          node-version: 18  # Adjust if needed
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build and Export
-        run: npm run build && npm run export
+      - name: Build the Next.js App
+        run: npm run build  # ✅ No `export` needed!
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          publish_dir: ./out  # Next.js automatically places static files here
           publish_branch: gh-pages
