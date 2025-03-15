@@ -6,7 +6,7 @@
   "/publications/page": "/publications",
   "/research/notebooks/page": "/research/notebooks",
   "/research/page": "/research",
-  "/teaching/page": "/teaching",
   "/team/page": "/team",
-  "/theses/page": "/theses"
+  "/theses/page": "/theses",
+  "/teaching/page": "/teaching"
 }

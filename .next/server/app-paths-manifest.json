@@ -6,7 +6,7 @@
   "/publications/page": "app/publications/page.js",
   "/research/notebooks/page": "app/research/notebooks/page.js",
   "/research/page": "app/research/page.js",
-  "/teaching/page": "app/teaching/page.js",
   "/team/page": "app/team/page.js",
-  "/theses/page": "app/theses/page.js"
+  "/theses/page": "app/theses/page.js",
+  "/teaching/page": "app/teaching/page.js"
 }
