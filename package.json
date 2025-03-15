@@ -25,7 +25,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "raw-loader": "^4.0.2"
   },
   "experimental": {
